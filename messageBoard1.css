@@ -1,0 +1,51 @@
+/*  */
+/**{
+
+    color:pink;
+    back-ground color:green;
+
+} */
+
+/* this is one method pf changing class*/
+body { 
+
+    background-color: beige;
+}
+
+button {
+
+    font-size: 30px;
+}
+
+/* Comment here for rules going forward- mutltiple selectors in this section */
+
+h1,h2 {
+
+    color:crimson
+}
+
+/*  This is how to change by id*/
+
+#signup {
+
+    background-color: pink;
+    color: blue;
+}
+
+.tag{
+
+    color: purple;
+}
+
+.post a{
+
+    color: purple;
+}
+
+/*  Footer comment */
+
+footer > a {
+
+    color: orange;
+}
+

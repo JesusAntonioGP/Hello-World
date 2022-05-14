@@ -1,0 +1,64 @@
+/* *{
+
+    color: pink;
+
+    background-color: green;
+} */
+
+/* 
+button {font-size: 
+    30px;
+} */
+
+<style>
+.change1 {
+    color: crimson;
+}
+
+    </style>
+
+    <style>
+.change2 {
+
+color: green;
+
+}
+
+    </style>
+
+    <style>
+
+        .change3 {
+
+            color: yellow;
+        }
+    </style>
+
+    <style>
+
+        .change4 {
+
+            color: red;
+        }
+    </style>
+
+    <style>
+.change5 {
+
+    color: rgba(255, 166, 0, 0.76);
+}
+
+    </style>
+
+    <style>
+
+        .change6 {
+            color: orange;
+        }
+    </style>
+
+    style
+
+    .but1 { 
+        color: green;
+    }
