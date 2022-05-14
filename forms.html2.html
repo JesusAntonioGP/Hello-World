@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    
+</head>
+
+
+
+<body>
+<!-- This section will contain code pertaining to placeholders and textboxes for the user to fill in -->
+
+    <section>
+        <h1> Username and Password </h1>
+            <form action="tacos"></form>
+      
+                <p>
+                    <label for="Username">Enter a Name</label>
+                    <input id="Username" type="text" placeholder="Username" name="Username"> 
+
+
+                </p>
+         
+                <p>
+                    <label for="Password">Enter a Name</label>
+                    <input id="Password" type="text" placeholder="Password" name="Password"> 
+
+
+                </p>
+          
+                <button>Submit</button>
+
+<hr>
+<!-- This section will be a directory to other search engines -->
+            <section>
+                <h1>Query Strings</h1>
+                    <form action="https://www.reddit.com/search/?q=Nflx&source=trending">
+
+                        <input type="text"name="q">
+                        <button>Submit Reddit</button>
+
+                    </form>
+                    
+                   
+
+                    <form action="https://www.youtube.com/c/3blue1brown">
+
+                        <input type="text" name="q" id="">
+                        <button>Search Youtube</button>
+
+                    </form>
+                   
+                
+
+                    <form action="https://www.google.com/search">
+
+                        <input type="text"name="q">
+                        <button>Google Search</button>
+
+                    </form>
+                    
+
+            </section>
+
+            <section>
+                <h1>Heading</h1>
+                    <form action="Birds">
+                        <label for="agree">I agree to everything</label>
+                        <input type="checkbox"name="agree_tos" id="agree">
+
+
+                <!-- size options bullet points -->
+
+
+                        <p>
+                            <label for="s">Small</label>
+                            <input type="radio" name="size" id="s" value="small">
+
+                            <label for="m">Medium</label>
+                            <input type="radio" name="size" id="m" value="medium">
+
+                            <label for="l">Large</label>
+                            <input type="radio" name="size" id="l" value="large">
+
+
+                        </p>
+
+
+                        <!-- In this section we will create a dropdown list/ Note: question about to make the dropdown list add 'colors' before a color is selected" -->
+
+                        <p>
+                            
+                            <label for="fav color">What is your favorite color</label>
+
+                            <select name="favorite" id="favcolor">
+
+                                <option value="Chose Color">Chose Color</option>
+
+                                <option value="Red">Red</option>
+
+                                <option value="Green">Green</option>
+
+                                <option value="Blue">Blue</option>
+
+
+                            </select>
+
+                            <p>
+
+                            <label for="scroll">My scrollbar</label>
+                            <input type="range" id="scroll" min="5" max="10" name="scrollbar">
+
+
+                            </p>
+<!-- This section will be for creating a textarea -->
+                            <p>
+
+                                <label for="request">Type into this box</label>
+                                <textarea name="reqs" id="request" cols="15" rows="15" placeholder="type your message here"></textarea>
+
+                            </p>
+
+                            
+                        <button>Submit Button</button>
+
+                        </p>
+
+                    </form>
+            </section>
+
+        <hr>
+<!-- this last section will be made to act as validation -->
+        <section>
+            
+            <h2>Form Validation</h2>
+            <form action="/bananas"></form>
+            <label for="required1"></label>
+
+            <input type="text" name="funny" id="required1" required>
+
+            <label for="length"></label>
+            <input type="text" name="lengthy" id="length" minlength="5" maxlength="10">
+
+            <p>
+                <input type="email" required>
+
+
+            </p>
+
+            <button>Submit Here</button>
+
+
+        </section>
+
+
+
+
+    </section>
+
+
+
+
+    
+</body>
+</html>
