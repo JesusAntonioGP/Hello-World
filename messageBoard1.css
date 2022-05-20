@@ -49,3 +49,37 @@ footer > a {
     color: orange;
 }
 
+/* this necxt portion goes over text attributes  */
+
+input [type="text"] {
+
+    color: red;
+}
+
+/* this next section will show us how to find all anchor tags that havr an RF keyword */
+
+a[href*="google"] {
+
+    color: darkgreen;
+
+}
+
+button:hover {
+
+    background-color: violet;
+    color: aquamarine
+;
+}
+
+.post button:active {
+
+    background-color: green;
+}
+/* here we are experimenting with pseudo-elements */
+
+p::first-line {
+
+    color: brown;
+
+}
+
